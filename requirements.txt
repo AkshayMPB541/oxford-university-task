@@ -1,0 +1,3 @@
+google-auth
+google-cloud-resource-manager
+requests
