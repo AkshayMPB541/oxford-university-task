@@ -37,6 +37,7 @@ def fetch_bank_holidays():
     return data["england-and-wales"]["events"]
 
 def is_project_ignored(project):
+    #ignoring the projects which have set ignore label on them
     destroyer_behaviour = project.labels.get("destroyer_behaviour", "ignore")
     ignore = destroyer_behaviour == "ignore"
     if ignore:
