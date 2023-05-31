@@ -7,3 +7,7 @@ The other benefits include:-
 2) We can test multiple versions of different services together at once
 
 3) We can run regression test pack on developer environments early stages of SDLC to adopt shift left coding practices
+
+
+To Run the script use pip3 install -r requirements.txt
+and run "python3 project_destroyer.py" and to run "python3 -m unittest unit-test.py"
